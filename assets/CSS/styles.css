@@ -1,6 +1,4 @@
-/*
-  Resets
-*/
+
 *,
 *:before,
 *:after {
@@ -52,25 +50,22 @@ ul {
   Universal
 */
 :root {
-  --light: #fff;
-  --light-accent: #f9f9fb;
-  --dark: #000;
-  --dark-accent: #222;
-  --dark-accent-action: #111;
-  --action: #563d7c;
-  --action-accent: #8570a5;
-  --disabled: #aaa;
-  --error: #ff0022;
-  --circle-color: #ffb100;
-}
+    --light: #ffffff; /* White */
+    --light-accent: #f8f9fa; /* Very Light Gray */
+    --dark: #343a40; /* Dark Gray */
+    --dark-accent: #6c757d; /* Medium Gray */
+    --dark-accent-action: #adb5bd; /* Light Gray */
+    --action: #17a2b8; /* Bright Cyan */
+    --action-accent: #20c997; /* Bright Green */
+    --disabled: #e9ecef; /* Very Light Gray */
+    --error: #ff6b6b; /* Bright Red */
+    --circle-color: #ffdd57; /* Bright Yellow */
+  }
 
 * {
   transition: background-color ease-in .5s;
 }
 
-/*
-  Tags
-*/
 header {
   display: flex;
   flex-flow: row wrap;

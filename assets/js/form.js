@@ -9,7 +9,7 @@ const handleFormSubmit = function (event) {
 
   if (!usernameEl || !titleEl || !contentEl) {
     const errorEl = document.querySelector('#error');
-    errorEl.textContent = 'Please complete the form.';
+    errorEl.textContent = 'Form Needs To be Completed';
 
     setTimeout(function () {
       errorEl.textContent = '';
@@ -43,3 +43,4 @@ const storeLocalStorage = function (data) {
 };
 
 formEl.addEventListener('submit', handleFormSubmit);
+

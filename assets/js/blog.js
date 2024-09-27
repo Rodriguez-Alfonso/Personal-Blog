@@ -36,4 +36,3 @@ const renderBlogList = function () {
 };
 
 renderBlogList();
-

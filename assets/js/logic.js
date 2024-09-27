@@ -7,7 +7,7 @@ const applyMode = function (mode) {
     icon = '☀️';
     circleColor = '#ffb100';
   } else {
-    icon = '🌒';
+    icon = '🌕'; // Full Moon
     circleColor = '#8570a5';
   }
 
